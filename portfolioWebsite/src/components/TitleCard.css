@@ -1,0 +1,11 @@
+.title-card {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    bottom: 0;
+    left: 0;
+    width: 50vw;
+    height: 100vh;
+}
