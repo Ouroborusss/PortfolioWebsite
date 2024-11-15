@@ -2,15 +2,14 @@ import { useState } from 'react'
 import './TitleCard.css'
 
 function TitleCard() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className="title-card">
-        <h1>Ouroborussss</h1>
-        <h2>A game about the cycle of life</h2>
+    <div className="title-card">
+      <div className="title-content">
+        <h1>Ouroborusss</h1>
+        <div className="title-divider"></div>
+        <h2>Welcome to the Gallery</h2>
       </div>
-    </>
+    </div>
   )
 }
 

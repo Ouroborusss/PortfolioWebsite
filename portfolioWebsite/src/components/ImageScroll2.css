@@ -1,0 +1,19 @@
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-9%, 100%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+    padding-bottom: 10rem;
+  }
+  
+#image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+    border-radius: 1rem;
+    opacity: 1;
+}
