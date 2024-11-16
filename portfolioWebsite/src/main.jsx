@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
     <>
         <FallCard />
         <TitleCard />
-        <Trim />
+        
         <ImageScroll1 />   
         <ImageScroll2 />
     </>
